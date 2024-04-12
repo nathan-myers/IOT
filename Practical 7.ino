@@ -10,7 +10,7 @@ void setup()
   pinMode(9, OUTPUT);
   pinMode(10, OUTPUT);
   Serial.print("\t =Enter the color: ");
-  while(Serial.available()==0) // Waits for the command
+  while(Serial.available()==0) // Waits for the command i.e. acts like a getch() function 
   {
   }
   colour = Serial.read(); // reads the input and stores in 'colour' 
