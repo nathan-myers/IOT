@@ -38,7 +38,7 @@ void loop() {
   Serial.print("\t");
   Serial.print(f);
   Serial.print("*F\t");
-  Serial.print(t);
+  // Serial.print(t);
   Serial.print("\n");
 
 }
